@@ -18,6 +18,9 @@ Fast learning and expandable
     <img alt="banner" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
         <br />
         <br />
+    <img alt="banner" src="https://user-images.githubusercontent.com/88866403/229329219-8766fb8a-556c-48a3-80be-955c6ffe2000.png" width="60" height="28">
+    <br />
+    <br />
     <img alt="banner" src="https://img.shields.io/badge/*-Vosk-green">
     <img alt="banner" src="https://img.shields.io/badge/*-pyttsx3-orange">
     </h4>
