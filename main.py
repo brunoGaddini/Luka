@@ -7,6 +7,7 @@ r = sr.Recognizer()
 
 # Open the mic for capture
 with sr.Microphone() as source:
-    audio = r.listen(source) # Defines the audio source
+    while True:
+        audio = r.listen(source)  # Defines the audio source
 
-    print(r.recognize_google(audio))
+        print(r.recognize_google(audio))
