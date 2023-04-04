@@ -1,9 +1,9 @@
 # Our main file
-import speech_recognition as sr
-#import vosk
-# import pyaudio
 
 '''
+# Online version
+import speech_recognition as sr
+
 # Create a recognizer
 r = sr.Recognizer()
 
@@ -16,8 +16,20 @@ with sr.Microphone() as source:
 '''
 
 from vosk import Model, KaldiRecognizer
-import os
 import pyaudio
+import pyttsx3
+
+# Speech synthesis
+engine = pyttsx3.init()
+
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[-2].id) # -1 US Voice / -2 Portuguese Voice
+
+engine.say("Eu vou falar esse texto")
+engine.runAndWait()
+
+
+
 
 model = Model('model')
 rec = KaldiRecognizer(model, 16000)
