@@ -28,7 +28,11 @@ engine.setProperty('voice', voices[-2].id) # -1 US Voice / -2 Portuguese Voice
 engine.say("Eu vou falar esse texto")
 engine.runAndWait()
 
-
+'''
+https://www.youtube.com/watch?v=9aGC5Omlf_k
+7:37
+Criando a função para a síntese de voz
+'''
 
 
 model = Model('model')
